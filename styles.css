@@ -1,21 +1,21 @@
 body {
-    font-family: 'Mulish', sans-serif;
-    background-color: #fafafa;
+    background-color: #fbfcfe;
+    font-family: "Muli", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
     height: 100vh;
     overflow: hidden;
-}
+    margin: 0;
+  }
 
 .container {
-    background-color: #ffffff;
-    border: 4px black solid;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 1000px;
+  background-color: #fff;
+  border: 3px #000 solid;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 1000px;
+  text-align: center;
 }
 .code-container {
     display: flex;
@@ -54,7 +54,7 @@ body {
     color: #777777b0;
     border-radius: 5px;
     padding: 10px;
-    max-width: 500px;
+    max-width: 400px;
     line-height: 20px;
 }
 .code::placeholder{
